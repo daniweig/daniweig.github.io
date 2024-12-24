@@ -6,8 +6,8 @@ what it was intended. I'm a computer science major with an interest ranging from
 This page serves to show a little of who I am behind the professional mask, and to help compile my activities, hobbies, and whatever I feel would be nice to show off to the internet! 
 
 Contact
-
 website@dannytran.io
+https://www.linkedin.com/in/danntq/
 
 Interests & More Details about Me!
 - Certifications: CompTIA Security+, AWS Solutions Architect, AWS Cloud Practitioner
@@ -15,7 +15,7 @@ Interests & More Details about Me!
 - Food: I love seafood & soup! Honestly, I love food in general. If you have any food recommendations, message me on what I should try out!
 
 Updates
-- current info
+12/23/24: planning on building out my website, currently very sparse, hoping to get out a very basic version. Then, eventually rebuild it with a web framework!
 
 Picture
 - cool pictures to put up 

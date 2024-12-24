@@ -1,0 +1,73 @@
+
+.header{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-align:center;
+}
+
+.navbar{
+    background-color: rgb(152, 91, 209);
+    padding:0px;
+    margin:0px;
+    display: flex; /* Create a flex container */
+    justify-content: center; /* Center align the links */}
+
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    border-radius: 5px; /* Optional: rounded corners */
+    display: inline-block; /* Ensure consistent block size */
+    width: 120px; /* Set a fixed width */
+    text-align: center; /* Center text within the block */
+
+}
+
+.navbar a:hover{
+    background-color: rgb(133, 50, 211);
+
+}
+
+/* Layout for About Me section */
+.container {
+    display: flex;
+    justify-content: space-between; /* Space out the columns */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    gap: 20px; /* Add spacing between columns */
+}
+
+.column-left, .column-right {
+    flex: 1; /* Take up equal space */
+    background-color: rgb(231, 215, 247);
+    border: 2px solid  rgb(152, 91, 209);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.column-middle {
+    flex: 2; /* Larger space for the main content */
+    background-color: rgb(231, 215, 247);
+    border: 2px solid  rgb(152, 91, 209);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+/* Title styles */
+.container-title {
+    font-size: 1.5rem; /* Larger font size for titles */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px; /* Space below the title */
+    color: #333; /* Dark text color */
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(152, 91, 209);
+}
