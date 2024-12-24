@@ -126,3 +126,9 @@ h1, h2, h3, p {
     margin-right: auto;
     border: 2px solid rgb(152, 91, 209);
 }
+
+.contact-info-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
