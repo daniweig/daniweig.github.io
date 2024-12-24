@@ -6,6 +6,16 @@
     text-align:center;
 }
 
+/* Apply Nunito globally */
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Apply Nunito to specific elements */
+h1, h2, h3, p {
+    font-family: 'Nunito', sans-serif;
+}
+
 .navbar{
     background-color: rgb(152, 91, 209);
     padding:0px;
@@ -33,28 +43,59 @@
 /* Layout for About Me section */
 .container {
     display: flex;
-    justify-content: space-between; /* Space out the columns */
+    justify-content:center;
     align-items: flex-start; /* Align items at the top */
     padding: 20px;
     gap: 20px; /* Add spacing between columns */
 }
 
-.column-left, .column-right {
-    flex: 1; /* Take up equal space */
+.column-middle {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(247, 225, 215); */
+
+}
+
+.column-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* set the left columns sizes to be justified near the middle column */
+.left {
+    margin-left:15%;
+    /* background-color: rgb(228, 247, 215); */
+
+}
+
+/* set the right columns sizes to be justified near the middle column */
+.right {
+    margin-right:15%;
+    /* background-color: rgb(228, 247, 215); */
+}
+
+
+.row-left, .row-right {
+    /* flex: 1; Take up equal space */
     background-color: rgb(231, 215, 247);
     border: 2px solid  rgb(152, 91, 209);
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin:10px;
 }
 
-.column-middle {
-    flex: 2; /* Larger space for the main content */
+.row-middle {
+    /* flex: 2; Larger space for the main content */
     background-color: rgb(231, 215, 247);
     border: 2px solid  rgb(152, 91, 209);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    margin:10px;
+
 }
 
 /* Title styles */
@@ -66,6 +107,7 @@
 }
 
 .image {
+    margin:10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
