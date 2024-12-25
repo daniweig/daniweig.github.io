@@ -1,9 +1,8 @@
-
-.header{
+.header {
     margin-top: 25px;
     margin-bottom: 10px;
     font-size: 25px;
-    text-align:center;
+    text-align: center;
 }
 
 /* Apply Nunito globally */
@@ -12,55 +11,70 @@ body {
 }
 
 /* Apply Nunito to specific elements */
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     font-family: 'Nunito', sans-serif;
 }
 
-.navbar{
+.navbar {
     background-color: rgb(152, 91, 209);
-    padding:0px;
-    margin:0px;
-    display: flex; /* Create a flex container */
-    justify-content: center; /* Center align the links */}
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    /* Create a flex container */
+    justify-content: center;
+    /* Center align the links */
+}
 
-.navbar a{
+.navbar a {
     color: #fff;
     text-decoration: none;
     padding: 10px 20px;
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-    border-radius: 5px; /* Optional: rounded corners */
-    display: inline-block; /* Ensure consistent block size */
-    width: 120px; /* Set a fixed width */
-    text-align: center; /* Center text within the block */
+    transition: background-color 0.3s ease;
+    /* Smooth hover effect */
+    border-radius: 5px;
+    /* Optional: rounded corners */
+    display: inline-block;
+    /* Ensure consistent block size */
+    width: 120px;
+    /* Set a fixed width */
+    text-align: center;
+    /* Center text within the block */
 
 }
 
-.navbar a:hover{
+.navbar a:hover {
     background-color: rgb(133, 50, 211);
 }
 
 /* Layout for About Me section */
 .container {
     display: flex;
-    justify-content:center;
-    align-items: flex-start; /* Align items at the top */
+    justify-content: center;
+    align-items: flex-start;
+    /* Align items at the top */
     padding: 20px;
-    gap: 20px; /* Add spacing between columns */
-    max-width: 100%; /* Prevent container overflow */
-    flex-wrap: wrap; /* Allow columns to wrap */
+    gap: 20px;
+    /* Add spacing between columns */
+    max-width: 100%;
+    /* Prevent container overflow */
+    flex-wrap: wrap;
+    /* Allow columns to wrap */
 }
 
 .column-middle {
     flex: 3;
     display: flex;
     flex-direction: column;
-    max-width: 100%; /* Prevent container overflow */
-    /* background-color: rgb(247, 225, 215); */
-
+    max-width: 100%;
+    /* Prevent container overflow */
 }
 
 .column-side {
-    max-width: 100%; /* Prevent container overflow */
+    max-width: 100%;
+    /* Prevent container overflow */
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -68,69 +82,76 @@ h1, h2, h3, p {
 
 /* set the left columns sizes to be justified near the middle column */
 .left {
-    margin-left:15%;
-
-    /* background-color: rgb(228, 247, 215); */
-
+    margin-left: 15%;
 }
 
 /* set the right columns sizes to be justified near the middle column */
 .right {
-    margin-right:15%;
-    /* background-color: rgb(228, 247, 215); */
+    margin-right: 15%;
 }
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
-    .left, .right {
+
+    .left,
+    .right {
         margin-left: 5%;
         margin-right: 5%;
     }
 
     .container {
-        padding: 5px; /* Reduce padding on smaller screens */
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center vertically */
+        padding: 5px;
+        /* Reduce padding on smaller screens */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center vertically */
 
     }
 }
 
-.row-left, .row-right {
-    /* flex: 1; Take up equal space */
+.row-left,
+.row-right {
     background-color: rgb(231, 215, 247);
-    border: 2px solid  rgb(152, 91, 209);
+    border: 2px solid rgb(152, 91, 209);
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-    margin:10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+    margin: 10px;
 }
 
 .row-middle {
-    /* flex: 2; Larger space for the main content */
     background-color: rgb(231, 215, 247);
-    border: 2px solid  rgb(152, 91, 209);
+    border: 2px solid rgb(152, 91, 209);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-    margin:10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Add subtle shadow */
+    margin: 10px;
 
 }
 
 /* Title styles */
 .container-title {
-    font-size: 1.5rem; /* Larger font size for titles */
-    font-weight: bold; /* Bold text */
-    margin-bottom: 10px; /* Space below the title */
-    color: #333; /* Dark text color */
+    font-size: 1.5rem;
+    /* Larger font size for titles */
+    font-weight: bold;
+    /* Bold text */
+    margin-bottom: 10px;
+    /* Space below the title */
+    color: #333;
+    /* Dark text color */
 }
 
 .image {
-    margin:10px;
+    margin: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 2px solid rgb(152, 91, 209);
-    max-width: 100%; /* Prevent container overflow */
+    max-width: 100%;
+    /* Prevent container overflow */
 
 }
 
@@ -140,8 +161,8 @@ h1, h2, h3, p {
     padding: 0;
 }
 
-.social-logo{
-    width:40px;
-    height:40px;
+.social-logo {
+    width: 40px;
+    height: 40px;
     display: block;
 }
