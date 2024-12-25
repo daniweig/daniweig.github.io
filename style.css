@@ -77,12 +77,11 @@ h1, h2, h3, p {
 /* set the right columns sizes to be justified near the middle column */
 .right {
     margin-right:15%;
-
     /* background-color: rgb(228, 247, 215); */
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .left, .right {
         margin-left: 5%;
         margin-right: 5%;
@@ -90,6 +89,9 @@ h1, h2, h3, p {
 
     .container {
         padding: 5px; /* Reduce padding on smaller screens */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center vertically */
+
     }
 }
 
