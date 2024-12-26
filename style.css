@@ -161,8 +161,14 @@ p {
     padding: 0;
 }
 
+
 .social-logo {
     width: 40px;
     height: 40px;
     display: block;
+    transition: transform .5s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.2);
 }
