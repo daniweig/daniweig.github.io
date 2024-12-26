@@ -167,7 +167,15 @@ p {
     margin: 0px;
 }
 
+/* create spacing between each socials */
+.contact-info-list li {
+    margin-bottom: 10px;
+}
 
+/* keep spacing at the bottom consistent for each box */
+.contact-info-list li:last-child {
+    margin-bottom: 0px;
+}
 
 .social-logo {
     width: 40px;
