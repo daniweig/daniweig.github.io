@@ -163,10 +163,6 @@ p {
 
 }
 
-.contact-info-list p {
-    margin: 0px;
-}
-
 /* create spacing between each socials */
 .contact-info-list li {
     margin-bottom: 10px;
@@ -176,6 +172,12 @@ p {
 .contact-info-list li:last-child {
     margin-bottom: 0px;
 }
+
+.contact-info-list p {
+    margin: 0px;
+}
+
+
 
 .social-logo {
     width: 40px;
