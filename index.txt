@@ -10,11 +10,13 @@ website@dannytran.io
 https://www.linkedin.com/in/danntq/
 
 Interests & More Details about Me!
-- Certifications: CompTIA Security+, AWS Solutions Architect, AWS Cloud Practitioner
+- Certifications: CompTIA Cysa+, CompTIA Security+, AWS Solutions Architect, AWS Cloud Practitioner
 - Hobbies: running, reading, piano, lockpicking, videogames, etc. (I always like trying out new things, send me a message if there's anything that you do that I should look into!)
 - Food: I love seafood & soup! Honestly, I love food in general. If you have any food recommendations, message me on what I should try out!
+- Favorite Games: Crusader Kings 3 and Europa Universalis 4
 
 Updates
+11/22/25: Updated with new info about me and resume
 12/23/24: planning on building out my website, currently very sparse, hoping to get out a very basic version. Then, eventually rebuild it with a web framework!
 
 Picture
